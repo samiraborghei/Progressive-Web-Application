@@ -1,13 +1,13 @@
 # Progressive-Web-Application
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-The application is a web text editor that runs in the browser where the user can create notes or code snippets with or without an internet connection. This is a single-page application that, it will feature a number of data persistence techniques that serve as redundancy. This application allows the user to access visited pages even if the application is offline.
+This application is a web text editor that runs in the browser where the user can create notes and code with or without an internet connection. This is a single-page application that, it will feature a number of data persistence techniques that serve as redundancy. This application allows the user to access visited pages even if the application is offline.
 
 I deployed to Heroku and the URL of the deployed application is:-
  
 https:
+Repo: git@github.com:samiraborghei/Progressive-Web-Application.git
 
 
 # User Story
