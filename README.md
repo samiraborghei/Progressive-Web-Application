@@ -2,18 +2,15 @@
 
 ## Description
 
-This application is a web text editor that runs in the browser where the user can create notes and code with or without an internet connection. This is a single-page application that, it will feature a number of data persistence techniques that serve as redundancy. This application allows the user to access visited pages even if the application is offline.
-
-I deployed to Heroku and the URL of the deployed application is:-
+The deployed application is a browser-based web text editor that enables users to create notes and write code, regardless of whether they have an internet connection. It is designed as a single-page application with various data persistence techniques to ensure redundancy. This means that even when offline, users can still access previously visited pages. The application has been deployed to Heroku, and you can access it using the provided URL.
+Heroku: https://p-web-app-abf671db8d65.herokuapp.com
  
 https:
 Repo: git@github.com:samiraborghei/Progressive-Web-Application.git
 
 
 # User Story
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
+As a developer, my goal is to create a web application that allows users to create and store notes or code snippets, providing the flexibility to do so with or without an internet connection. This ensures that users can conveniently retrieve their saved content whenever they need it, regardless of their online status.
 
 # Acceptance Criteria
 ``````
@@ -53,11 +50,11 @@ SO THAT I can reliably retrieve them for later use
 
 ## Installation
 
-* This text editor require a number of methods and store data to an IndexedDB database to be builded up.
+* To build this text editor, it is necessary to implement multiple methods and establish a connection to an IndexedDB database. The objective is to enable the text editor to store data in the IndexedDB database effectively. This entails developing the required functionality for seamless integration and data storage within the application.
 
 * This application will require the installation of Node.js and various npm packages.
 
-*   Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization. 
+*   The Node Package Manager (npm) serves as a software manager and installer for Node.js projects. It facilitates the placement of modules, allowing the project to utilize them efficiently. Additionally, npm intelligently handles dependency conflicts. The initialization process is carried out using the command **npm init**, which generates a package.json file. This file contains all the application details that the user inputs during the npm initialization process. 
 
 *  This application will use the following npm packages:-
 
@@ -157,9 +154,9 @@ THEN I should have proper build scripts for a webpack application
 
 ## References
 
-*   The Unit Ahead : Progressive Web Applications (PWA)
-*   Module 19 Mini-Project: Deploy Contact Directory App on Heroku with Script
-*   Request-Response : The Full-Stack Blog : Heroku Deployment Guide
+*   https://web.dev/progressive-web-apps/
+*   Mini project
+*   Heroku Deployment Guide
  
 ## License
 
