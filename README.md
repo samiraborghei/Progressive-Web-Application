@@ -79,7 +79,8 @@ THEN I should see a client server folder structure
 ``````
 *Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
 
-![alt text](/assets/images/TE07.png)
+![alt text](<img width="680" alt="Screen Shot 2023-06-27 at 1 25 45 PM" src="https://github.com/samiraborghei/Progressive-Web-Application/assets/124013032/d87a293a-b127-4653-8438-42582547793f">)
+
 
 
 2.
