@@ -3,9 +3,10 @@ const { CacheFirst } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
-//const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
+const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 
-//precacheAndRoute(self.__WB_MANIFEST);
+// The precacheAndRoute() method takes an array of URLs to precache. The self._WB_MANIFEST is an array that contains the list of URLs to precache.
+precacheAndRoute(self.__WB_MANIFEST);
 
 const pageCache = new CacheFirst({
   cacheName: 'page-cache',
@@ -38,7 +39,10 @@ registerRoute(
       new CacheableResponsePlugin({
         statuses: [0, 200],
       }),
-      
+      new ExpirationPlugin({
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, //30 Days
+      })
     ],
   })
 );
