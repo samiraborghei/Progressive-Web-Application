@@ -77,9 +77,6 @@ GIVEN a text editor web application,
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
 ``````
-*Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
-
-![alt text](<img width="680" alt="Screen Shot 2023-06-27 at 1 25 45 PM" src="https://github.com/samiraborghei/Progressive-Web-Application/assets/124013032/d87a293a-b127-4653-8438-42582547793f">)
 
 
 
@@ -92,13 +89,6 @@ THEN I should see a client server folder structure
     WHEN I run my webpack plugins
     THEN I find that I have a generated HTML file, service worker, and a manifest file
 ``````
-*Below is the screenshot of the running at npm run start and npm run build* 
-
-![alt text](/assets/images/TE02.png)
-
-*Below is the screenshot of the generated HTML, service worker and a manifest file*
-
-![alt text](/assets/images/TE08.png)
 
 3.
 ``````
@@ -106,9 +96,6 @@ WHEN I use next-gen JavaScript in my application
 THEN I find that the text editor still functions in the browser without errors
 WHEN I open the text editor
 ``````
-*Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)"*
-
-![alt text](/assets/images/TE03.png)
 
 4.
 ``````
@@ -118,18 +105,12 @@ THEN I find that the content in the text editor has been saved with IndexedDB
 WHEN I reopen the text editor after closing it
 THEN I find that the content in the text editor has been retrieved from our IndexedDB
 ``````
-*Below is the  screenshot of content in the text editor has been retrieved from the IndexedDB"*
-
-![alt text](/assets/images/TE05.png)
 
 5.
 ``````
 WHEN I click on the Install button
 THEN I download my web application as an icon on my desktop
 ``````
-*Below is the screenshot of icon on the desktop"*
-
-![alt text](/assets/images/TE04.png)
 
 6.
 ``````
@@ -138,11 +119,6 @@ THEN I should have a registered service worker using workbox
 WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 ``````
-*Below is the screenshot of the static assets pre cached upon loading with subsequent pages and static assets"*
-
-![alt text](/assets/images/TE09.png)
-
-![alt text](/assets/images/TE10.png)
 
 7.
 
@@ -150,7 +126,7 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application 
 ````````
-![alt text](/assets/images/TE11.png)
+
 
 
 ## References
